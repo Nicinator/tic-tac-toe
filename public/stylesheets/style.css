@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+#buttons button {
+  font-size: 40px;
+}
